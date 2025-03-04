@@ -2,6 +2,7 @@
 import MainButton from './components/MainButton.vue'
 import OptionComponent from './components/OptionComponent.vue'
 import CompositionComponent from './components/CompositionComponent.vue'
+import ButtonIncrementComponent from './components/ButtonIncrementComponent.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import CompositionComponent from './components/CompositionComponent.vue'
 
   <OptionComponent />
   <CompositionComponent />
+  <ButtonIncrementComponent />
 </template>
 
 <style scoped></style>
