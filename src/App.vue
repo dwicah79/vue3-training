@@ -1,5 +1,6 @@
 <script setup>
 import MainButton from './components/MainButton.vue'
+import OptionComponent from './components/OptionComponent.vue'
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import MainButton from './components/MainButton.vue'
   <MainButton />
   <MainButton />
   <MainButton />
+
+  <OptionComponent />
 </template>
 
 <style scoped></style>
