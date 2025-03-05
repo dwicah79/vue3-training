@@ -1,9 +1,9 @@
 <template>
-  <div>Tombol Tambah</div>
+  <div class="font-bold">Tombol Tambah</div>
 
-  <button @click="increment">+</button>
+  <button @click="increment" class="button-primary">+</button>
   {{ count }}
-  <button @click="decrement">-</button>
+  <button @click="decrement" class="button-primary">-</button>
 </template>
 
 <script>
