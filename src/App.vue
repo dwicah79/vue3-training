@@ -6,11 +6,9 @@ import ButtonIncrementComponent from './components/ButtonIncrementComponent.vue'
 </script>
 
 <template>
-  <MainButton />
-  <MainButton />
-  <MainButton />
-  <MainButton />
-  <MainButton />
+  <MainButton :title="`Submit`" />
+  <MainButton :title="`Log In`" />
+  <MainButton :title="`Kirim`" />
 
   <OptionComponent />
   <CompositionComponent />
