@@ -5,7 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <button class="button-primary">{{ props.title }}</button>
+  <button class="button-primary w-full">{{ props.title }}</button>
 </template>
 
 <style scoped></style>
